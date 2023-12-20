@@ -154,15 +154,15 @@
   cursor: pointer;
 }
 
-.home img {
+.home section:first-child img {
   max-width: 1520px;
   margin-left: -20px;
   transition: 0.4s;
 }
-.home img:hover {
+.home section:first-child img:hover {
   transform: scale(1.2, 1.2);
 }
-.home .texts {
+.home section:first-child .texts {
   margin-left: -60px;
   top: 0;
   position: absolute;
@@ -171,7 +171,7 @@
   height: 803px;
   padding-left: 81px;
 }
-.home .texts .posted {
+.home section:first-child .texts .posted {
   padding-top: 192px;
   color: #fff;
   font-family: Inter;
@@ -182,7 +182,7 @@
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-.home .texts .step-by-step {
+.home section:first-child .texts .step-by-step {
   max-width: 803px;
   padding-top: 24px;
   color: #fff;
@@ -193,13 +193,13 @@
   line-height: 64px; /* 114.286% */
   letter-spacing: -2px;
 }
-.home .texts .name-date {
+.home section:first-child .texts .name-date {
   display: flex;
   align-items: center;
   max-width: 300px;
   padding-top: 24px;
 }
-.home .texts .name-date p:first-child {
+.home section:first-child .texts .name-date p:first-child {
   color: #fff;
   font-family: Inter;
   font-size: 16px;
@@ -207,7 +207,7 @@
   font-weight: 400;
   line-height: 28px; /* 175% */
 }
-.home .texts .name-date p:nth-child(2) {
+.home section:first-child .texts .name-date p:nth-child(2) {
   padding-left: 2px;
   color: #ffd050;
   font-family: Inter;
@@ -216,7 +216,7 @@
   font-weight: 400;
   line-height: 28px;
 }
-.home .texts .name-date p:nth-child(3) {
+.home section:first-child .texts .name-date p:nth-child(3) {
   padding-left: 2px;
   color: #fff;
   font-family: Inter;
@@ -225,7 +225,7 @@
   font-weight: 400;
   line-height: 28px; /* 175% */
 }
-.home .texts p:nth-child(4) {
+.home section:first-child .texts p:nth-child(4) {
   max-width: 599px;
   padding-top: 16px;
   color: #fff;
@@ -235,7 +235,7 @@
   font-weight: 400;
   line-height: 28px; /* 175% */
 }
-.home .texts a {
+.home section:first-child .texts a {
   margin-top: 48px;
   margin-bottom: 192px;
   text-decoration: none;
@@ -249,7 +249,7 @@
   cursor: pointer;
   border-radius: 12px;
 }
-.home .texts a button {
+.home section:first-child .texts a button {
   display: flex;
   gap: 6px;
   align-items: center;
@@ -259,7 +259,7 @@
   border: none;
   transition: 0.4s;
 }
-.home .texts a button p:first-child {
+.home section:first-child .texts a button p:first-child {
   position: absolute;
   color: #232536;
   font-family: Sen;
@@ -269,7 +269,7 @@
   line-height: 24px; /* 133.333% */
   transition: 0.4s;
 }
-.home .texts a button i {
+.home section:first-child .texts a button i {
   padding-left: 60px;
   font-size: 32px;
   color: #232536;
@@ -289,6 +289,139 @@
     margin-left: 70%;
     width: 300%;
   }
+}
+.home section:nth-child(2) {
+  padding-left: 91px;
+  padding-right: 91px;
+}
+.home section:nth-child(2) .h-latest-post {
+  padding-top: 94px;
+  color: #000;
+  font-family: Sen;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: -2px;
+}
+.home section:nth-child(2) .cards {
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+.home section:nth-child(2) .cards a {
+  text-decoration: none;
+  width: 405px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.home section:nth-child(2) .cards a .h-name-date {
+  padding-left: 5px;
+  padding-top: 32px;
+  display: flex;
+  gap: 4px;
+}
+.home section:nth-child(2) .cards a .h-name-date p:first-child {
+  color: var(--Dark-Grey, #4c4c4c);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+.home section:nth-child(2) .cards a .h-name-date p:nth-child(2) {
+  color: var(--Purple, #592ea9);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.home section:nth-child(2) .cards a .h-name-date p:nth-child(3) {
+  color: var(--Dark-Grey, #4c4c4c);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+.home section:nth-child(2) .cards a p:nth-child(3) {
+  padding-left: 10px;
+  color: #232536;
+  font-family: Sen;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 142.857% */
+  letter-spacing: -1px;
+}
+.home section:nth-child(2) .cards a p:nth-child(4) {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: #232536;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+}
+.home section:nth-child(2) .cards a:hover {
+  box-shadow: rgb(145, 145, 145) 0px 0px 0px 3px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(143, 143, 143) 10px -10px;
+}
+.home section:nth-child(2) hr {
+  margin-top: 66px;
+  opacity: 0.3;
+  background: #6d6e76;
+}
+.home section:nth-child(3) .third-items {
+  padding-left: 91px;
+  padding-right: 91px;
+  padding-top: 69px;
+}
+.home section:nth-child(3) .third-items .choose {
+  text-align: center;
+  color: #232536;
+  font-family: Sen;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: -2px;
+}
+.home section:nth-child(3) .third-items .categrory-cards {
+  padding-top: 71px;
+  gap: 32px;
+}
+.home section:nth-child(3) .third-items .categrory-cards a {
+  text-decoration: none;
+  background: #5cc5fa;
+  width: 296px;
+  height: 221.072px;
+  flex-shrink: 0;
+  padding: 32px;
+}
+.home section:nth-child(3) .third-items .categrory-cards a .bus {
+  text-decoration: none;
+  padding-top: 16px;
+  color: #232536;
+  font-family: Sen;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 142.857% */
+  letter-spacing: -1px;
+}
+.home section:nth-child(3) .third-items .categrory-cards a .inform {
+  text-decoration: none;
+  padding-top: 4px;
+  color: #6d6e76;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
 }
 
 * {
