@@ -17,6 +17,9 @@
 $color-white: #fff;
 $color-black: #000;
 $color-header: #232536;
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: Inter;
@@ -184,4 +187,27 @@ body {
       }
     }
   }
+}
+
+// BACKTOP
+#backtop {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 900;
+  background: #006aff;
+  opacity: 0.85;
+  box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  padding-top: 5px;
+  right: 40px;
+  bottom: -80px;
+  cursor: pointer;
+  z-index: 99;
+  transition: 0.6s;
 }

@@ -1,1 +1,99 @@
-@use '../base' as *;
+@use "../base" as *;
+.all-posts {
+  section {
+    .second-items {
+      padding-top: 57px;
+      padding-right: 81px;
+      padding-left: 81px;
+      .inp {
+        max-width: 1280px;
+        input {
+          outline: none;
+          width: 100%;
+          padding: 24px;
+          border-radius: 2px;
+          border: 1px solid rgba(109, 110, 118, 0.5);
+        }
+      }
+      .c-card {
+        display: flex;
+        gap: 48px;
+        img {
+          padding-top: 57px;
+        }
+        .c-texts {
+          padding-top: 57px;
+          p:first-child {
+            color: var(--Purple, #592ea9);
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px; /* 125% */
+            letter-spacing: 3px;
+            text-transform: uppercase;
+          }
+          p:nth-child(2) {
+            padding-top: 16px;
+            color: $color-header;
+            font-family: Sen;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 48px; /* 133.333% */
+            letter-spacing: -2px;
+          }
+          p:nth-child(3) {
+            padding-top: 64px;
+            color: #6d6e76;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+          }
+        }
+      }
+      a {
+        display: flex;
+        gap: 48px;
+        text-decoration: none;
+        img {
+          padding-top: 57px;
+        }
+        .c-texts {
+          padding-top: 57px;
+          p:first-child {
+            color: var(--Purple, #592ea9);
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px; /* 125% */
+            letter-spacing: 3px;
+            text-transform: uppercase;
+          }
+          p:nth-child(2) {
+            padding-top: 16px;
+            color: $color-header;
+            font-family: Sen;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 48px; /* 133.333% */
+            letter-spacing: -2px;
+          }
+          p:nth-child(3) {
+            padding-top: 64px;
+            color: #6d6e76;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+          }
+        }
+      }
+    }
+  }
+}
