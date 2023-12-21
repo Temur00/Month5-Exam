@@ -87,6 +87,30 @@ body {
       }
     }
   }
+  // html {
+  //   body {
+  //     header {
+  //       nav {
+  //         .nav-items {
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  #dark-light {
+    text-align: center !important;
+    // margin-top: 12px !important;
+    height: 48px !important;
+    width: 48px !important;
+    border-radius: 100px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: none !important;
+  }
+  #dark-light:hover {
+    background: #c2c2c2 !important;
+  }
   // main {
   // }
 
@@ -232,4 +256,16 @@ body {
   font-size: 35px;
   font-weight: bold;
   transition: 0.4s;
+}
+
+.light .register {
+  background: #535353;
+  color: $color-white;
+  // $color-white: #c8122d;
+  // $color-black: #000;
+  // $color-header: #232536;
+  // VARIABLES
+  // $color-white: #2f2f2f;
+  // $color-black: #b7b7b7;
+  // $color-header: #232536;
 }

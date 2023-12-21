@@ -154,6 +154,10 @@
   cursor: pointer;
 }
 
+.light {
+  background: #535353;
+}
+
 .home section:first-child img {
   max-width: 1520px;
   margin-left: -20px;
@@ -441,6 +445,10 @@
   box-shadow: 0px 19px 20px 10px rgba(255, 255, 0, 0.3);
 }
 
+.light {
+  background: #535353;
+}
+
 .category section:first-child .first-items {
   background: #f4f0f8;
 }
@@ -573,6 +581,10 @@
   line-height: 28px; /* 175% */
 }
 
+.light {
+  background: #535353;
+}
+
 .all-posts section .second-items {
   padding-top: 57px;
   padding-right: 81px;
@@ -668,6 +680,10 @@
   line-height: 28px; /* 175% */
 }
 
+.light {
+  background: #535353;
+}
+
 .blog-post {
   padding-top: 56px;
 }
@@ -736,6 +752,14 @@
   font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 175% */
+}
+
+.light {
+  background: #535353;
+}
+
+.light {
+  background: #535353;
 }
 
 * {
@@ -819,6 +843,19 @@ body header nav .nav-items .nav-item button:hover {
 }
 body header nav .nav-items .nav-item button:hover a {
   color: #0487ce;
+}
+body #dark-light {
+  text-align: center !important;
+  height: 48px !important;
+  width: 48px !important;
+  border-radius: 100px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: none !important;
+}
+body #dark-light:hover {
+  background: #c2c2c2 !important;
 }
 body footer {
   margin-top: 73px;
@@ -947,4 +984,9 @@ body footer .footer-items .social-addresses a:nth-child(4) i:hover {
   font-size: 35px;
   font-weight: bold;
   transition: 0.4s;
+}
+
+.light .register {
+  background: #535353;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
