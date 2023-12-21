@@ -926,4 +926,25 @@ body footer .footer-items .social-addresses a:nth-child(4) i:hover {
   cursor: pointer;
   z-index: 99;
   transition: 0.6s;
+}
+
+#navbar {
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
 }/*# sourceMappingURL=style.css.map */
